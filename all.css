@@ -1,0 +1,81 @@
+*{
+  font-family: 微軟正黑體;
+  position: relative;
+}
+
+html,body{
+  width: 100%; height: 100%;
+  padding: 0;  margin: 0;
+}
+.bdoy{
+  background-color: #d1d1d1;
+  border-top: solid 20px #05aa81;
+  border-bottom: solid 20px #05aa81;
+  box-sizing: border-box;
+  
+  overflow: hidden;
+}
+.businesscard{
+  width: 350px;
+  height: 200px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  background-color: #333;
+  
+  letter-spacing: 1px;
+  font-weight: 100;
+  color: #eee;
+  
+  overflow: hidden;
+  border: solid 1px rgba(0,0,0,0.15);
+  border-radius: 6px;
+  
+  box-shadow: 0px 25px 15px -10px rgba(0,0,0,0.2); 
+}
+.businesscard h1{
+  font-size: 25px;
+  font-weight: 700;
+}
+.businesscard h1 span{
+  font-size: 16px;
+}
+.businesscard h3{
+  color: #05aa81;
+  font-weight: 500;
+}
+.businesscard p{
+  font-size:16px;
+  line-height:20px;
+}
+.circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+}
+.c1{
+  right: 100px;
+  background-color: #008bd1;  
+}
+.c2{
+  width: 60px;
+  height: 60px;
+  top: -30px;
+  right: -30px;
+  border: solid 3px #008bd1;
+}
+.page_title{
+  font-size: 10px;
+  text-align: center;
+  color: #555;
+  font-weight: 200;
+}
+.mark{
+  font-size: 200px;
+  position: absolute;
+  top:-200px;
+  font-weight:200;
+  color:rgb(0,0,0,0.035);
+}
